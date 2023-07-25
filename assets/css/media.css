@@ -1,0 +1,84 @@
+@media (max-width:991.99px) {
+    .nav__list {
+        left: 25%;
+    }
+}
+@media (max-width:1199.99px) {
+    .catalog__cards{
+        justify-content: center;
+    }
+}
+
+@media (max-width:767.99px) {
+    .nav__list {
+        left: -1000px;
+        flex-direction: column;
+        padding: 15px;
+        background: #3E8989;
+        transition: .2s;
+        opacity: 0;
+    }
+
+    .list__btn {
+        left: 50%;
+        border-radius: 0;
+    }
+
+    .nav__menu:hover .nav__list {
+        left: 0;
+        top: 85px;
+        opacity: 1;
+    }
+
+    .nav__input {
+        width: 0;
+        opacity: 0;
+        transition: .4s;
+        position: absolute;
+        left: 0;
+        border-radius: 0;
+    }
+
+    .nav__form:hover .nav__input {
+        width: 100%;
+        opacity: 1;
+        padding: 9px 0;
+    }
+
+    .nav__button{
+        border-radius: 0;
+    }
+
+    .main__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact__content{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media (max-width:575.99px) {
+    .nav__list {
+        left: -1000px;
+    }
+
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__subtitle {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .list__btn{
+        padding: 8px;
+    }
+
+    .nav__button{
+        padding: 8px;
+    }
+}
